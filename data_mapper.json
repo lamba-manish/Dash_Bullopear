@@ -1,0 +1,1181 @@
+{
+    "NIFTY": {
+        "url": "NIFTY",
+        "db_name": "NIFTY",
+        "slicer": 25,
+        "lot_size": 50
+    },
+    "BANKNIFTY": {
+        "url": "BANKNIFTY",
+        "db_name": "BANKNIFTY",
+        "slicer": 100,
+        "lot_size": 25
+    },
+    "FINNIFTY": {
+        "url": "FINNIFTY",
+        "db_name": "FINNIFTY",
+        "slicer": 25,
+        "lot_size": 40
+    },
+    "SENSEX":{"url": "SENSEX", "db_name": "SENSEX", "slicer": 100, "lot_size": "10"},
+    "BANKEX":{"url": "BANKEX", "db_name": "BANKEX", "slicer": 100, "lot_size": "15"},
+    "SX50":{"url": "SX50", "db_name": "SX50", "slicer": 100, "lot_size": "15"},
+    "MIDCPNIFTY":{
+        "url": "MIDCPNIFTY",
+        "db_name": "MIDCPNIFTY",
+        "slicer":125,
+        "lot_size":75
+    },
+    "USDINR": {
+        "url": "USDINR",
+        "db_name": "USDINR",
+        "slicer": 0.125,
+        "lot_size": 1
+    },
+    "CRUDEOIL": {
+        "url": "CRUDEOIL",
+        "db_name": "CRUDEOIL",
+        "slicer": 25,
+        "lot_size": 1
+    },
+    "NATURALGAS": {
+        "url": "NATURALGAS",
+        "db_name": "NATURALGAS",
+        "slicer": 2.5,
+        "lot_size": 1
+    },
+    "AARTIIND": {
+        "url": "AARTIIND",
+        "db_name": "AARTIIND",
+        "lot_size": 850,
+        "slicer": 5
+    },
+    "ABB": {
+        "url": "ABB",
+        "db_name": "ABB",
+        "lot_size": 250,
+        "slicer": 25
+    },
+    "ALKEM": {
+        "url": "ALKEM",
+        "db_name": "ALKEM",
+        "lot_size": 200,
+        "slicer": 10
+    },
+    "ABBOTINDIA": {
+        "url": "ABBOTINDIA",
+        "db_name": "ABBOTINDIA",
+        "lot_size": 40,
+        "slicer": 125
+    },
+    "ASIANPAINT": {
+        "url": "ASIANPAINT",
+        "db_name": "ASIANPAINT",
+        "lot_size": 200,
+        "slicer": 10
+    },
+    "BHEL": {
+        "url": "BHEL",
+        "db_name": "BHEL",
+        "lot_size": 10500,
+        "slicer": 0.5
+    },
+    "CANBK": {
+        "url": "CANBK",
+        "db_name": "CANBK",
+        "lot_size": 2700,
+        "slicer": 2.5
+    },
+    "GAIL": {
+        "url": "GAIL",
+        "db_name": "GAIL",
+        "lot_size": 9150,
+        "slicer": 0.5
+    },
+    "ACC": {
+        "url": "ACC",
+        "db_name": "ACC",
+        "lot_size": 250,
+        "slicer": 10
+    },
+    "HDFC": {
+        "url": "HDFC",
+        "db_name": "HDFC",
+        "lot_size": 300,
+        "slicer": 10
+    },
+    "HDFCBANK": {
+        "url": "HDFCBANK",
+        "db_name": "HDFCBANK",
+        "lot_size": 550,
+        "slicer": 5
+    },
+    "ABCAPITAL": {
+        "url": "ABCAPITAL",
+        "db_name": "ABCAPITAL",
+        "lot_size": 5400,
+        "slicer": 1.25
+    },
+    "HEROMOTOCO": {
+        "url": "HEROMOTOCO",
+        "db_name": "HEROMOTOCO",
+        "lot_size": 300,
+        "slicer": 10
+    },
+    "HINDALCO": {
+        "url": "HINDALCO",
+        "db_name": "HINDALCO",
+        "lot_size": 1400,
+        "slicer": 5
+    },
+    "APOLLOHOSP": {
+        "url": "APOLLOHOSP",
+        "db_name": "APOLLOHOSP",
+        "lot_size": 125,
+        "slicer": 25
+    },
+    "HINDPETRO": {
+        "url": "HINDPETRO",
+        "db_name": "HINDPETRO",
+        "lot_size": 2700,
+        "slicer": 1.25
+    },
+    "HINDUNILVR": {
+        "url": "HINDUNILVR",
+        "db_name": "HINDUNILVR",
+        "lot_size": 300,
+        "slicer": 10
+    },
+    "IBULHSGFIN": {
+        "url": "IBULHSGFIN",
+        "db_name": "IBULHSGFIN",
+        "lot_size": 4000,
+        "slicer": 1.25
+    },
+    "ICICIGI": {
+        "url": "ICICIGI",
+        "db_name": "ICICIGI",
+        "lot_size": 425,
+        "slicer": 10
+    },
+    "ABFRL": {
+        "url": "ABFRL",
+        "db_name": "ABFRL",
+        "lot_size": 2600,
+        "slicer": 2.5
+    },
+    "JSWSTEEL": {
+        "url": "JSWSTEEL",
+        "db_name": "JSWSTEEL",
+        "lot_size": 1350,
+        "slicer": 5
+    },
+    "BAJAJFINSV": {
+        "url": "BAJAJFINSV",
+        "db_name": "BAJAJFINSV",
+        "lot_size": 500,
+        "slicer": 10
+    },
+    "BIOCON": {
+        "url": "BIOCON",
+        "db_name": "BIOCON",
+        "lot_size": 2300,
+        "slicer": 1.25
+    },
+    "M&M": {
+        "url": "M%26M",
+        "db_name": "MM",
+        "lot_size": 700,
+        "slicer": 10
+    },
+    "MANAPPURAM": {
+        "url": "MANAPPURAM",
+        "db_name": "MANAPPURAM",
+        "lot_size": 6000,
+        "slicer": 1.25
+    },
+    "AXISBANK": {
+        "url": "AXISBANK",
+        "db_name": "AXISBANK",
+        "lot_size": 1200,
+        "slicer": 5
+    },
+    "BATAINDIA": {
+        "url": "BATAINDIA",
+        "db_name": "BATAINDIA",
+        "lot_size": 275,
+        "slicer": 10
+    },
+    "AUROPHARMA": {
+        "url": "AUROPHARMA",
+        "db_name": "AUROPHARMA",
+        "lot_size": 1000,
+        "slicer": 2.5
+    },
+    "NMDC": {
+        "url": "NMDC",
+        "db_name": "NMDC",
+        "lot_size": 4500,
+        "slicer": 1.25
+    },
+    "ADANIENT": {
+        "url": "ADANIENT",
+        "db_name": "ADANIENT",
+        "lot_size": 250,
+        "slicer": 25
+    },
+    "ADANIPORTS": {
+        "url": "ADANIPORTS",
+        "db_name": "ADANIPORTS",
+        "lot_size": 625,
+        "slicer": 5
+    },
+    "AMBUJACEM": {
+        "url": "AMBUJACEM",
+        "db_name": "AMBUJACEM",
+        "lot_size": 1800,
+        "slicer": 5
+    },
+    "APOLLOTYRE": {
+        "url": "APOLLOTYRE",
+        "db_name": "APOLLOTYRE",
+        "lot_size": 3500,
+        "slicer": 25
+    },
+    "ASHOKLEY": {
+        "url": "ASHOKLEY",
+        "db_name": "ASHOKLEY",
+        "lot_size": 5000,
+        "slicer": 0.5
+    },
+    "ASTRAL": {
+        "url": "ASTRAL",
+        "db_name": "ASTRAL",
+        "lot_size": 367,
+        "slicer": 10
+    },
+    "ATUL": {
+        "url": "ATUL",
+        "db_name": "ATUL",
+        "lot_size": 75,
+        "slicer": 50
+    },
+    "COALINDIA": {
+        "url": "COALINDIA",
+        "db_name": "COALINDIA",
+        "lot_size": 4200,
+        "slicer": 1.125
+    },
+    "CUMMINSIND": {
+        "url": "CUMMINSIND",
+        "db_name": "CUMMINSIND",
+        "lot_size": 600,
+        "slicer": 10
+    },
+    "AUBANK": {
+        "url": "AUBANK",
+        "db_name": "AUBANK",
+        "lot_size": 1000,
+        "slicer": 5
+    },
+    "ONGC": {
+        "url": "ONGC",
+        "db_name": "ONGC",
+        "lot_size": 3850,
+        "slicer": 1.25
+    },
+    "INFY": {
+        "url": "INFY",
+        "db_name": "INFY",
+        "lot_size": 400,
+        "slicer": 10
+    },
+    "LICHSGFIN": {
+        "url": "LICHSGFIN",
+        "db_name": "LICHSGFIN",
+        "lot_size": 2000,
+        "slicer": 5
+    },
+    "BAJAJ-AUTO": {
+        "url": "BAJAJ-AUTO",
+        "db_name": "BAJAJAUTO",
+        "lot_size": 250,
+        "slicer": 10
+    },
+    "BALKRISIND": {
+        "url": "BALKRISIND",
+        "db_name": "BALKRISIND",
+        "lot_size": 300,
+        "slicer": 10
+    },
+    "BANDHANBNK": {
+        "url": "BANDHANBNK",
+        "db_name": "BANDHANBNK",
+        "lot_size": 1800,
+        "slicer": 2.5
+    },
+    "BANKBARODA": {
+        "url": "BANKBARODA",
+        "db_name": "BANKBARODA",
+        "lot_size": 5850,
+        "slicer": 1.25
+    },
+    "DABUR": {
+        "url": "DABUR",
+        "db_name": "DABUR",
+        "lot_size": 1250,
+        "slicer": 2.5
+    },
+    "DALBHARAT": {
+        "url": "DALBHARAT",
+        "db_name": "DALBHARAT",
+        "lot_size": 500,
+        "slicer": 10
+    },
+    "DELTACORP": {
+        "url": "DELTACORP",
+        "db_name": "DELTACORP",
+        "lot_size": 2800,
+        "slicer": 1.25
+    },
+    "BEL": {
+        "url": "BEL",
+        "db_name": "BEL",
+        "lot_size": 5700,
+        "slicer": 0.5
+    },
+    "BERGEPAINT": {
+        "url": "BERGEPAINT",
+        "db_name": "BERGEPAINT",
+        "lot_size": 1100,
+        "slicer": 5
+    },
+    "BHARTIARTL": {
+        "url": "BHARTIARTL",
+        "db_name": "BHARTIARTL",
+        "lot_size": 950,
+        "slicer": 5
+    },
+    "BPCL": {
+        "url": "BPCL",
+        "db_name": "BPCL",
+        "lot_size": 1800,
+        "slicer": 2.5
+    },
+    "BSOFT": {
+        "url": "BSOFT",
+        "db_name": "BSOFT",
+        "lot_size": 2000,
+        "slicer": 2.5
+    },
+    "CANFINHOME": {
+        "url": "CANFINHOME",
+        "db_name": "CANFINHOME",
+        "lot_size": 975,
+        "slicer": 5
+    },
+    "CHAMBLFERT": {
+        "url": "CHAMBLFERT",
+        "db_name": "CHAMBLFERT",
+        "lot_size": 1500,
+        "slicer": 2.5
+    },
+    "CHOLAFIN": {
+        "url": "CHOLAFIN",
+        "db_name": "CHOLAFIN",
+        "lot_size": 1250,
+        "slicer": 5
+    },
+    "CIPLA": {
+        "url": "CIPLA",
+        "db_name": "CIPLA",
+        "lot_size": 650,
+        "slicer": 5
+    },
+    "COFORGE": {
+        "url": "COFORGE",
+        "db_name": "COFORGE",
+        "lot_size": 150,
+        "slicer": 25
+    },
+    "CONCOR": {
+        "url": "CONCOR",
+        "db_name": "CONCOR",
+        "lot_size": 1000,
+        "slicer": 5
+    },
+    "COROMANDEL": {
+        "url": "COROMANDEL",
+        "db_name": "COROMANDEL",
+        "lot_size": 700,
+        "slicer": 5
+    },
+    "CROMPTON": {
+        "url": "CROMPTON",
+        "db_name": "CROMPTON",
+        "lot_size": 1500,
+        "slicer": 2.5
+    },
+    "DEEPAKNTR": {
+        "url": "DEEPAKNTR",
+        "db_name": "DEEPAKNTR",
+        "lot_size": 250,
+        "slicer": 10
+    },
+    "DIVISLAB": {
+        "url": "DIVISLAB",
+        "db_name": "DIVISLAB",
+        "lot_size": 150,
+        "slicer": 10
+    },
+    "DIXON": {
+        "url": "DIXON",
+        "db_name": "DIXON",
+        "lot_size": 125,
+        "slicer": 25
+    },
+    "DLF": {
+        "url": "DLF",
+        "db_name": "DLF",
+        "lot_size": 1650,
+        "slicer": 2.5
+    },
+    "DRREDDY": {
+        "url": "DRREDDY",
+        "db_name": "DRREDDY",
+        "lot_size": 125,
+        "slicer": 25
+    },
+    "EICHERMOT": {
+        "url": "EICHERMOT",
+        "db_name": "EICHERMOT",
+        "lot_size": 175,
+        "slicer": 25
+    },
+    "PFC": {
+        "url": "PFC",
+        "db_name": "PFC",
+        "lot_size": 6200,
+        "slicer": 0.5
+    },
+    "ESCORTS": {
+        "url": "ESCORTS",
+        "db_name": "ESCORTS",
+        "lot_size": 275,
+        "slicer": 10
+    },
+    "GLENMARK": {
+        "url": "GLENMARK",
+        "db_name": "GLENMARK",
+        "lot_size": 1450,
+        "slicer": 2.5
+    },
+    "GMRINFRA": {
+        "url": "GMRINFRA",
+        "db_name": "GMRINFRA",
+        "lot_size": 22500,
+        "slicer": 0.5
+    },
+    "GNFC": {
+        "url": "GNFC",
+        "db_name": "GNFC",
+        "lot_size": 1300,
+        "slicer": 5
+    },
+    "GODREJPROP": {
+        "url": "GODREJPROP",
+        "db_name": "GODREJPROP",
+        "lot_size": 425,
+        "slicer": 10
+    },
+    "IGL": {
+        "url": "IGL",
+        "db_name": "IGL",
+        "lot_size": 1375,
+        "slicer": 2.5
+    },
+    "GRANULES": {
+        "url": "GRANULES",
+        "db_name": "GRANULES",
+        "lot_size": 2000,
+        "slicer": 2.5
+    },
+    "INDIACEM": {
+        "url": "INDIACEM",
+        "db_name": "INDIACEM",
+        "lot_size": 2900,
+        "slicer": 2.5
+    },
+    "GRASIM": {
+        "url": "GRASIM",
+        "db_name": "GRASIM",
+        "lot_size": 475,
+        "slicer": 10
+    },
+    "GUJGASLTD": {
+        "url": "GUJGASLTD",
+        "db_name": "GUJGASLTD",
+        "lot_size": 1250,
+        "slicer": 5
+    },
+    "HAVELLS": {
+        "url": "HAVELLS",
+        "db_name": "HAVELLS",
+        "lot_size": 500,
+        "slicer": 5
+    },
+    "COLPAL": {
+        "url": "COLPAL",
+        "db_name": "COLPAL",
+        "lot_size": 350,
+        "slicer": 5
+    },
+    "HDFCAMC": {
+        "url": "HDFCAMC",
+        "db_name": "HDFCAMC",
+        "lot_size": 300,
+        "slicer": 10
+    },
+    "HDFCLIFE": {
+        "url": "HDFCLIFE",
+        "db_name": "HDFCLIFE",
+        "lot_size": 1100,
+        "slicer": 2.5
+    },
+    "BAJFINANCE": {
+        "url": "BAJFINANCE",
+        "db_name": "BAJFINANCE",
+        "lot_size": 125,
+        "slicer": 50
+    },
+    "IEX": {
+        "url": "IEX",
+        "db_name": "IEX",
+        "lot_size": 3750,
+        "slicer": 1.25
+    },
+    "HINDCOPPER": {
+        "url": "HINDCOPPER",
+        "db_name": "HINDCOPPER",
+        "lot_size": 4800,
+        "slicer": 1.25
+    },
+    "INDIAMART": {
+        "url": "INDIAMART",
+        "db_name": "INDIAMART",
+        "lot_size": 150,
+        "slicer": 25
+    },
+    "HONAUT": {
+        "url": "HONAUT",
+        "db_name": "HONAUT",
+        "lot_size": 15,
+        "slicer": 250
+    },
+    "ICICIBANK": {
+        "url": "ICICIBANK",
+        "db_name": "ICICIBANK",
+        "lot_size": 700,
+        "slicer": 5
+    },
+    "IDFC": {
+        "url": "IDFC",
+        "db_name": "IDFC",
+        "lot_size": 10000,
+        "slicer": 0.5
+    },
+    "SYNGENE": {
+        "url": "SYNGENE",
+        "db_name": "SYNGENE",
+        "lot_size": 1000,
+        "slicer": 5
+    },
+    "IDFCFIRSTB": {
+        "url": "IDFCFIRSTB",
+        "db_name": "IDFCFIRSTB",
+        "lot_size": 15000,
+        "slicer": 0.5
+    },
+    "INDHOTEL": {
+        "url": "INDHOTEL",
+        "db_name": "INDHOTEL",
+        "lot_size": 2000,
+        "slicer": 2.5
+    },
+    "INDUSINDBK": {
+        "url": "INDUSINDBK",
+        "db_name": "INDUSINDBK",
+        "lot_size": 450,
+        "slicer": 10
+    },
+    "INDUSTOWER": {
+        "url": "INDUSTOWER",
+        "db_name": "INDUSTOWER",
+        "lot_size": 2800,
+        "slicer": 1.25
+    },
+    "INTELLECT": {
+        "url": "INTELLECT",
+        "db_name": "INTELLECT",
+        "lot_size": 1000,
+        "slicer": 5
+    },
+    "JKCEMENT": {
+        "url": "JKCEMENT",
+        "db_name": "JKCEMENT",
+        "lot_size": 250,
+        "slicer": 25
+    },
+    "L&TFH": {
+        "url": "L%26TFH",
+        "db_name": "LTFH",
+        "lot_size": 8924,
+        "slicer": 0.5
+    },
+    "MPHASIS": {
+        "url": "MPHASIS",
+        "db_name": "MPHASIS",
+        "lot_size": 275,
+        "slicer": 10
+    },
+    "NAVINFLUOR": {
+        "url": "NAVINFLUOR",
+        "db_name": "NAVINFLUOR",
+        "lot_size": 150,
+        "slicer": 25
+    },
+    "OBEROIRLTY": {
+        "url": "OBEROIRLTY",
+        "db_name": "OBEROIRLTY",
+        "lot_size": 700,
+        "slicer": 10
+    },
+    "PEL": {
+        "url": "PEL",
+        "db_name": "PEL",
+        "lot_size": 550,
+        "slicer": 10
+    },
+    "RAIN": {
+        "url": "RAIN",
+        "db_name": "RAIN",
+        "lot_size": 3500,
+        "slicer": 1.25
+    },
+    "IOC": {
+        "url": "IOC",
+        "db_name": "IOC",
+        "lot_size": 9750,
+        "slicer": 0.5
+    },
+    "RBLBANK": {
+        "url": "RBLBANK",
+        "db_name": "RBLBANK",
+        "lot_size": 5000,
+        "slicer": 1.25
+    },
+    "BALRAMCHIN": {
+        "url": "BALRAMCHIN",
+        "db_name": "BALRAMCHIN",
+        "lot_size": 1600,
+        "slicer": 2.5
+    },
+    "SRF": {
+        "url": "SRF",
+        "db_name": "SRF",
+        "lot_size": 375,
+        "slicer": 10
+    },
+    "TATASTEEL": {
+        "url": "TATASTEEL",
+        "db_name": "TATASTEEL",
+        "lot_size": 5500,
+        "slicer": 0.5
+    },
+    "TVSMOTOR": {
+        "url": "TVSMOTOR",
+        "db_name": "TVSMOTOR",
+        "lot_size": 700,
+        "slicer": 10
+    },
+    "UBL": {
+        "url": "UBL",
+        "db_name": "UBL",
+        "lot_size": 400,
+        "slicer": 10
+    },
+    "IPCALAB": {
+        "url": "IPCALAB",
+        "db_name": "IPCALAB",
+        "lot_size": 650,
+        "slicer": 5
+    },
+    "VOLTAS": {
+        "url": "VOLTAS",
+        "db_name": "VOLTAS",
+        "lot_size": 600,
+        "slicer": 5
+    },
+    "IRCTC": {
+        "url": "IRCTC",
+        "db_name": "IRCTC",
+        "lot_size": 875,
+        "slicer": 5
+    },
+    "BHARATFORG": {
+        "url": "BHARATFORG",
+        "db_name": "BHARATFORG",
+        "lot_size": 1000,
+        "slicer": 5
+    },
+    "BOSCHLTD": {
+        "url": "BOSCHLTD",
+        "db_name": "BOSCHLTD",
+        "lot_size": 50,
+        "slicer": 125
+    },
+    "ITC": {
+        "url": "ITC",
+        "db_name": "ITC",
+        "lot_size": 1600,
+        "slicer": 1.25
+    },
+    "JINDALSTEL": {
+        "url": "JINDALSTEL",
+        "db_name": "JINDALSTEL",
+        "lot_size": 1250,
+        "slicer": 5
+    },
+    "CUB": {
+        "url": "CUB",
+        "db_name": "CUB",
+        "lot_size": 5000,
+        "slicer": 1.25
+    },
+    "HCLTECH": {
+        "url": "HCLTECH",
+        "db_name": "HCLTECH",
+        "lot_size": 700,
+        "slicer": 5
+    },
+    "JUBLFOOD": {
+        "url": "JUBLFOOD",
+        "db_name": "JUBLFOOD",
+        "lot_size": 1250,
+        "slicer": 2.5
+    },
+    "KOTAKBANK": {
+        "url": "KOTAKBANK",
+        "db_name": "KOTAKBANK",
+        "lot_size": 400,
+        "slicer": 10
+    },
+    "LT": {
+        "url": "LT",
+        "db_name": "LT",
+        "lot_size": 300,
+        "slicer": 10
+    },
+    "LTIM": {
+        "url": "LTIM",
+        "db_name": "LTIM",
+        "lot_size": 150,
+        "slicer": 25
+    },
+    "LUPIN": {
+        "url": "LUPIN",
+        "db_name": "LUPIN",
+        "lot_size": 850,
+        "slicer": 5
+    },
+    "M&MFIN": {
+        "url": "M%26MFIN",
+        "db_name": "MMFIN",
+        "lot_size": 4000,
+        "slicer": 2.5
+    },
+    "MARUTI": {
+        "url": "MARUTI",
+        "db_name": "MARUTI",
+        "lot_size": 100,
+        "slicer": 50
+    },
+    "MCX": {
+        "url": "MCX",
+        "db_name": "MCX",
+        "lot_size": 400,
+        "slicer": 10
+    },
+    "MFSL": {
+        "url": "MFSL",
+        "db_name": "MFSL",
+        "lot_size": 650,
+        "slicer": 5
+    },
+    "MGL": {
+        "url": "MGL",
+        "db_name": "MGL",
+        "lot_size": 800,
+        "slicer": 5
+    },
+    "MOTHERSON": {
+        "url": "MOTHERSON",
+        "db_name": "MOTHERSON",
+        "lot_size": 6750,
+        "slicer": 0.5
+    },
+    "MRF": {
+        "url": "MRF",
+        "db_name": "MRF",
+        "lot_size": 10,
+        "slicer": 250
+    },
+    "BRITANNIA": {
+        "url": "BRITANNIA",
+        "db_name": "BRITANNIA",
+        "lot_size": 200,
+        "slicer": 25
+    },
+    "MUTHOOTFIN": {
+        "url": "MUTHOOTFIN",
+        "db_name": "MUTHOOTFIN",
+        "lot_size": 550,
+        "slicer": 10
+    },
+    "OFSS": {
+        "url": "OFSS",
+        "db_name": "OFSS",
+        "lot_size": 200,
+        "slicer": 25
+    },
+    "PIDILITIND": {
+        "url": "PIDILITIND",
+        "db_name": "PIDILITIND",
+        "lot_size": 250,
+        "slicer": 10
+    },
+    "PNB": {
+        "url": "PNB",
+        "db_name": "PNB",
+        "lot_size": 16000,
+        "slicer": 0.5
+    },
+    "PVR": {
+        "url": "PVR",
+        "db_name": "PVR",
+        "lot_size": 407,
+        "slicer": 10
+    },
+    "SUNTV": {
+        "url": "SUNTV",
+        "db_name": "SUNTV",
+        "lot_size": 1500,
+        "slicer": 2.5
+    },
+    "RAMCOCEM": {
+        "url": "RAMCOCEM",
+        "db_name": "RAMCOCEM",
+        "lot_size": 850,
+        "slicer": 5
+    },
+    "VEDL": {
+        "url": "VEDL",
+        "db_name": "VEDL",
+        "lot_size": 2000,
+        "slicer": 1.25
+    },
+    "ZEEL": {
+        "url": "ZEEL",
+        "db_name": "ZEEL",
+        "lot_size": 3000,
+        "slicer": 2.5
+    },
+    "RELIANCE": {
+        "url": "RELIANCE",
+        "db_name": "RELIANCE",
+        "lot_size": 250,
+        "slicer": 10
+    },
+    "SAIL": {
+        "url": "SAIL",
+        "db_name": "SAIL",
+        "lot_size": 8000,
+        "slicer": 0.5
+    },
+    "SBICARD": {
+        "url": "SBICARD",
+        "db_name": "SBICARD",
+        "lot_size": 800,
+        "slicer": 5
+    },
+    "SBIN": {
+        "url": "SBIN",
+        "db_name": "SBIN",
+        "lot_size": 1500,
+        "slicer": 2.5
+    },
+    "SHREECEM": {
+        "url": "SHREECEM",
+        "db_name": "SHREECEM",
+        "lot_size": 25,
+        "slicer": 125
+    },
+    "SHRIRAMFIN": {
+        "url": "SHRIRAMFIN",
+        "db_name": "SHRIRAMFIN",
+        "lot_size": 600,
+        "slicer": 10
+    },
+    "TATACOMM": {
+        "url": "TATACOMM",
+        "db_name": "TATACOMM",
+        "lot_size": 500,
+        "slicer": 10
+    },
+    "TATAMOTORS": {
+        "url": "TATAMOTORS",
+        "db_name": "TATAMOTORS",
+        "lot_size": 1425,
+        "slicer": 2.5
+    },
+    "TECHM": {
+        "url": "TECHM",
+        "db_name": "TECHM",
+        "lot_size": 600,
+        "slicer": 5
+    },
+    "TITAN": {
+        "url": "TITAN",
+        "db_name": "TITAN",
+        "lot_size": 375,
+        "slicer": 10
+    },
+    "TORNTPHARM": {
+        "url": "TORNTPHARM",
+        "db_name": "TORNTPHARM",
+        "lot_size": 500,
+        "slicer": 10
+    },
+    "TRENT": {
+        "url": "TRENT",
+        "db_name": "TRENT",
+        "lot_size": 400,
+        "slicer": 10
+    },
+    "ZYDUSLIFE": {
+        "url": "ZYDUSLIFE",
+        "db_name": "ZYDUSLIFE",
+        "lot_size": 1800,
+        "slicer": 2.5
+    },
+    "NESTLEIND": {
+        "url": "NESTLEIND",
+        "db_name": "NESTLEIND",
+        "lot_size": 40,
+        "slicer": 125
+    },
+    "POWERGRID": {
+        "url": "POWERGRID",
+        "db_name": "POWERGRID",
+        "lot_size": 2700,
+        "slicer": 1.25
+    },
+    "MARICO": {
+        "url": "MARICO",
+        "db_name": "MARICO",
+        "lot_size": 1200,
+        "slicer": 5
+    },
+    "NAUKRI": {
+        "url": "NAUKRI",
+        "db_name": "NAUKRI",
+        "lot_size": 125,
+        "slicer": 25
+    },
+    "NTPC": {
+        "url": "NTPC",
+        "db_name": "NTPC",
+        "lot_size": 5700,
+        "slicer": 1.25
+    },
+    "RECLTD": {
+        "url": "RECLTD",
+        "db_name": "RECLTD",
+        "lot_size": 8000,
+        "slicer": 0.5
+    },
+    "TATACONSUM": {
+        "url": "TATACONSUM",
+        "db_name": "TATACONSUM",
+        "lot_size": 900,
+        "slicer": 5
+    },
+    "EXIDEIND": {
+        "url": "EXIDEIND",
+        "db_name": "EXIDEIND",
+        "lot_size": 3600,
+        "slicer": 1.25
+    },
+    "TATAPOWER": {
+        "url": "TATAPOWER",
+        "db_name": "TATAPOWER",
+        "lot_size": 3375,
+        "slicer": 2.5
+    },
+    "GODREJCP": {
+        "url": "GODREJCP",
+        "db_name": "GODREJCP",
+        "lot_size": 1000,
+        "slicer": 5
+    },
+    "TCS": {
+        "url": "TCS",
+        "db_name": "TCS",
+        "lot_size": 175,
+        "slicer": 7.5
+    },
+    "ICICIPRULI": {
+        "url": "ICICIPRULI",
+        "db_name": "ICICIPRULI",
+        "lot_size": 1500,
+        "slicer": 2.5
+    },
+    "INDIGO": {
+        "url": "INDIGO",
+        "db_name": "INDIGO",
+        "lot_size": 300,
+        "slicer": 10
+    },
+    "METROPOLIS": {
+        "url": "METROPOLIS",
+        "db_name": "METROPOLIS",
+        "lot_size": 400,
+        "slicer": 10
+    },
+    "WIPRO": {
+        "url": "WIPRO",
+        "db_name": "WIPRO",
+        "lot_size": 1500,
+        "slicer": 2.5
+    },
+    "SIEMENS": {
+        "url": "SIEMENS",
+        "db_name": "SIEMENS",
+        "lot_size": 275,
+        "slicer": 25
+    },
+    "PETRONET": {
+        "url": "PETRONET",
+        "db_name": "PETRONET",
+        "lot_size": 3000,
+        "slicer": 1.25
+    },
+    "SUNPHARMA": {
+        "url": "SUNPHARMA",
+        "db_name": "SUNPHARMA",
+        "lot_size": 700,
+        "slicer": 5
+    },
+    "UPL": {
+        "url": "UPL",
+        "db_name": "UPL",
+        "lot_size": 1300,
+        "slicer": 5
+    },
+    "SBILIFE": {
+        "url": "SBILIFE",
+        "db_name": "SBILIFE",
+        "lot_size": 750,
+        "slicer": 10
+    },
+    "TATACHEM": {
+        "url": "TATACHEM",
+        "db_name": "TATACHEM",
+        "lot_size": 500,
+        "slicer": 10
+    },
+    "ULTRACEMCO": {
+        "url": "ULTRACEMCO",
+        "db_name": "ULTRACEMCO",
+        "lot_size": 100,
+        "slicer": 50
+    },
+    "LAURUSLABS": {
+        "url": "LAURUSLABS",
+        "db_name": "LAURUSLABS",
+        "lot_size": 1100,
+        "slicer": 2.5
+    },
+    "WHIRLPOOL": {
+        "url": "WHIRLPOOL",
+        "db_name": "WHIRLPOOL",
+        "lot_size": 350,
+        "slicer": 10
+    },
+    "PERSISTENT": {
+        "url": "PERSISTENT",
+        "db_name": "PERSISTENT",
+        "lot_size": 175,
+        "slicer": 50
+    },
+    "NATIONALUM": {
+        "url": "NATIONALUM",
+        "db_name": "NATIONALUM",
+        "lot_size": 7500,
+        "slicer": 0.5
+    },
+    "HAL": {
+        "url": "HAL",
+        "db_name": "HAL",
+        "lot_size": 300,
+        "slicer": 10
+    },
+    "FEDERALBNK": {
+        "url": "FEDERALBNK",
+        "db_name": "FEDERALBNK",
+        "lot_size": 5000,
+        "slicer": 0.5
+    },
+    "POLYCAB": {
+        "url": "POLYCAB",
+        "db_name": "POLYCAB",
+        "lot_size": 300,
+        "slicer": 25
+    },
+    "LTTS": {
+        "url": "LTTS",
+        "db_name": "LTTS",
+        "lot_size": 200,
+        "slicer": 25
+    },
+    "PIIND": {
+        "url": "PIIND",
+        "db_name": "PIIND",
+        "lot_size": 250,
+        "slicer": 25
+    },
+    "PAGEIND": {
+        "url": "PAGEIND",
+        "db_name": "PAGEIND",
+        "lot_size": 15,
+        "slicer": 250
+    },
+    "LALPATHLAB": {
+        "url": "LALPATHLAB",
+        "db_name": "LALPATHLAB",
+        "lot_size": 250,
+        "slicer": 25
+    },
+    "IDEA": {
+        "url": "IDEA",
+        "db_name": "IDEA",
+        "lot_size": 70000,
+        "slicer": 0.5
+    },
+    "MCDOWELL-N": {
+        "url": "MCDOWELL-N",
+        "db_name": "MCDOWELLN",
+        "lot_size": 625,
+        "slicer": 5
+    }
+}
