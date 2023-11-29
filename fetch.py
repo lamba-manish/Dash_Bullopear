@@ -10,8 +10,10 @@ import plotly.graph_objects as go
 import plotly.offline as offline
 import plotly.express as px
 import pandas as pd
-import MySQLdb
-import sshtunnel
+from temp_fetch_web import *
+from temp_fetch_web import temp_fetch_call
+# import MySQLdb
+# import sshtunnel
 import re
 import ast
 
@@ -43,12 +45,13 @@ class Fetch():
         self.atm_slicer = self.security_dict[security_name]["slicer"]
         self.lot_size = self.security_dict[security_name]["lot_size"]
         self.headers={'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36','accept-language': 'en,gu;q=0.9,hi;q=0.8','accept-encoding': 'gzip, deflate, br'}
-        self.fetched_data = {} 
-        self.client = MongoClient("mongodb://localhost:27017/")
-        self.db = self.client[f"{self.security_name}_daily_oi"]
-        self.collection = self.db[f"{self.security_name}_oi_collection"]
-        self.last_fetched_document = self.collection.find().sort("_id", -1).limit(1)
-        self.fetched_data = [doc for doc in self.last_fetched_document][0]
+        self.fetched_data = temp_fetch_call(self.security_name)
+        # self.client = MongoClient("mongodb://localhost:27017/")
+        # self.db = self.client[f"{self.security_name}_daily_oi"]
+        # self.collection = self.db[f"{self.security_name}_oi_collection"]
+        # self.last_fetched_document = self.collection.find().sort("_id", -1).limit(1)
+        # self.fetched_data = [doc for doc in self.last_fetched_document][0]
+        
 
         # sshtunnel.SSH_TIMEOUT = 5.0
         # sshtunnel.TUNNEL_TIMEOUT = 5.0
@@ -110,9 +113,9 @@ class Fetch():
             expiry_url=f'https://api.bseindia.com/BseIndiaAPI/api/ddlExpiry/w?ProductType=IO&scrip_cd={bse_mapper["IO"][self.security_name]}'
             base_url='https://www.bseindia.com'
             sess=requests.Session()
-            response=sess.get(url=base_url, headers=self.headers, timeout=10)
+            response=sess.get(url=base_url, headers=bse_headers, timeout=10)
             cookies=response.cookies
-            expiry_dates=sess.get(url=expiry_url, headers=self.headers, cookies=cookies, timeout=10).json()['Table']
+            expiry_dates=sess.get(url=expiry_url, headers=bse_headers, cookies=cookies, timeout=10).json()['Table']
             expiry_date_list=[item['eXPIRY'] for item in expiry_dates]
             return expiry_date_list
 
@@ -148,19 +151,19 @@ class Fetch():
             self.fetch_For_Indices_And_Currency(self.security_name)
 
     def fetch_for_bse_options(self, security_name):
-        # bse_mapper={'IO':{'SENSEX':1, 'BANKEX':12, 'SX50':47}}
-        # expiry_url=f'https://api.bseindia.com/BseIndiaAPI/api/ddlExpiry/w?ProductType=IO&scrip_cd={bse_mapper["IO"][self.security_name]}'
-        # base_url='https://www.bseindia.com'
-        # sess=requests.Session()
-        # response=sess.get(url=base_url, headers=self.headers, timeout=10)
+        bse_mapper={'IO':{'SENSEX':1, 'BANKEX':12, 'SX50':47}}
+        expiry_url=f'https://api.bseindia.com/BseIndiaAPI/api/ddlExpiry/w?ProductType=IO&scrip_cd={bse_mapper["IO"][self.security_name]}'
+        base_url='https://www.bseindia.com'
+        sess=requests.Session()
+        # response=sess.get(url=base_url, headers=bse_headers)
         # cookies=response.cookies
-        # expiry_dates=sess.get(url=expiry_url, headers=self.headers, cookies=cookies, timeout=10)
-        # expiry_date=expiry_dates.json()['Table'][0]['eXPIRY']
-        # formatted_expiry_date=expiry_date[0:2]+'+'+expiry_date[3:6]+'+'+expiry_date[7:]
-        # index_url=f'https://api.bseindia.com/BseIndiaAPI/api/DerivOptionChain/w?Expiry={formatted_expiry_date}&ProductType=IO&scrip_cd={bse_mapper["IO"][self.security_name]}'
-        # output=sess.get(url=index_url, headers=self.headers, cookies=cookies, timeout=10)
-        # data=output.json()
-        data=self.fetched_data
+        expiry_dates=sess.get(url=expiry_url, headers=bse_headers)
+        expiry_date=expiry_dates.json()['Table'][0]['eXPIRY']
+        formatted_expiry_date=expiry_date[0:2]+'+'+expiry_date[3:6]+'+'+expiry_date[7:]
+        index_url=f'https://api.bseindia.com/BseIndiaAPI/api/DerivOptionChain/w?Expiry={formatted_expiry_date}&ProductType=IO&scrip_cd={bse_mapper["IO"][self.security_name]}'
+        output=sess.get(url=index_url, headers=bse_headers)
+        data=output.json()
+        # data=self.fetched_data
         table=data['Table']
         self.strikes_list=[item['Strike_Price'] for item in table]
         self.expiry_date=self.return_expiry_dates()[0]

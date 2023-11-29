@@ -45,4 +45,4 @@ app.config.suppress_callback_exceptions = True
 app.favicon = None
 
 if __name__ == '__main__':
-    app.run_server(debug=True,threaded=True, port=8010)
+    app.run_server(debug=True,threaded=True, port=8000)
